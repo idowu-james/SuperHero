@@ -2,14 +2,14 @@ public class Hero {
 
 
 
-  private int Strength;
+  private int strength;
   private int speed;
   private int health;
   private String name;
 
   //Getter Section ++++++++++++++++++
   public int getStrength() {
-    return Strength;
+    return strength;
   }
 
   public int getSpeed() {
@@ -23,9 +23,21 @@ public class Hero {
   //Constructor ++++++++++++++++++++++
   public Hero(String name) {
     this.name = name;
+
+    generateAbilities();
   }
 
-  private void getAbilities(){
+  public void showAbilities(){
+    System.out.println("Strength is: " + this.strength);
+    System.out.println("Speed is: " + this.speed);
+    System.out.println("Health is: " + this.health);
+  }
+
+  private void generateAbilities(){
+
+    this.strength = (int)(Math.random() * 100 +1);
+    this.health = (int)(Math.random() * 100 +1);
+    this.speed = (int)(Math.random() * 100 +1);
 
   }
 
