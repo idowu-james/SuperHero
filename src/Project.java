@@ -4,7 +4,7 @@ public class Project {
 
    //Instantiate Hero +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     Hero hero = new Hero("Big Man");
-    hero.fight();
+    hero.fights();
     hero.runs();
     hero.showAbilities();
 

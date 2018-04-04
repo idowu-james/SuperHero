@@ -1,11 +1,10 @@
-public class Hero {
-
-
+public class Hero extends Entity {
 
   protected int strength;
   protected int speed;
   private int health;
   public String name;
+
 
   //Getter Section ++++++++++++++++++
   public int getStrength() {
@@ -44,7 +43,7 @@ public class Hero {
 
   }
 
-   public void fight(){
+   public void fights(){
 
     System.out.println(this.name + "is fighting");
     }
