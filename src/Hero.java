@@ -5,7 +5,7 @@ public class Hero {
   private int strength;
   private int speed;
   private int health;
-  private String name;
+  public String name;
 
   //Getter Section ++++++++++++++++++
   public int getStrength() {
@@ -43,9 +43,11 @@ public class Hero {
 
    public void fight(){
 
-   }
+    System.out.println(this.name + "is fighting");
+    }
 
    public void run(){
 
+     System.out.println(this.name + "is running");
    }
 }
