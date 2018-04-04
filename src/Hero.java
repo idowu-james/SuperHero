@@ -2,8 +2,8 @@ public class Hero {
 
 
 
-  private int strength;
-  private int speed;
+  protected int strength;
+  protected int speed;
   private int health;
   public String name;
 
@@ -49,7 +49,7 @@ public class Hero {
     System.out.println(this.name + "is fighting");
     }
 
-   public void run(){
+   public void runs(){
 
      System.out.println(this.name + "is running");
    }

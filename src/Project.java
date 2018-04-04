@@ -2,15 +2,21 @@ public class Project {
 
   public static void main(String[] args) {
 
-   //Instantiate Hero
+   //Instantiate Hero +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     Hero hero = new Hero("Big Man");
     hero.fight();
-    hero.run();
+    hero.runs();
     hero.showAbilities();
 
-    //Instantiate Villain
-    Villian villian = new Villian("Sly Man");
-    villian.run();
-    villian.showAbilities();
+    //Instantiate Villain ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Villain villain = new Villain("Sly Man");
+    villain.runs();
+    villain.showAbilities();
+
+    //Instantiate Vigilante +++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Vigilante vigilante = new Vigilante("Ms Sticks");
+    vigilante.runs();
+    vigilante.steals();
+    vigilante.dealsJustice();
   }
 }
