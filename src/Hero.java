@@ -28,9 +28,11 @@ public class Hero {
   }
 
   public void showAbilities(){
+    System.out.println("+++++++++++++++++++++++++++++++++++");
     System.out.println("Strength is: " + this.strength);
     System.out.println("Speed is: " + this.speed);
     System.out.println("Health is: " + this.health);
+    System.out.println("+++++++++++++++++++++++++++++++++++");
   }
 
   //Private Method +++++++++++++++++++++++++++++++++++++++++
