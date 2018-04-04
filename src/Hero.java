@@ -33,6 +33,7 @@ public class Hero {
     System.out.println("Health is: " + this.health);
   }
 
+  //Private Method +++++++++++++++++++++++++++++++++++++++++
   private void generateAbilities(){
 
     this.strength = (int)(Math.random() * 100 +1);
